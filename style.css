@@ -583,6 +583,9 @@ img {
   .footer__form > .input-email {
     width: 60%;
   }
+  .footer__form > .btn {
+    width: 35%;
+  }
 
   .contact {
     margin-top: 0;
