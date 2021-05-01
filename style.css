@@ -540,11 +540,14 @@ img {
   }
 
   .feature-item:nth-of-type(1)::before {
-    top: -5em;
+    height: 175px;
+    top: -12em;
     background-image: url('./images/bg-section-top-desktop-1.svg');
   }
   .feature-item:nth-of-type(1)::after {
-    bottom: -5em;
+    height: 175px;
+
+    bottom: -12em;
     background-image: url('./images/bg-section-bottom-desktop-1.svg');
   }
 
@@ -558,12 +561,16 @@ img {
   }
 
   .feature-item:nth-of-type(3)::before {
-    top: -5em;
+    height: 175px;
+
+    top: -11em;
     right: 0;
     background-image: url('./images/bg-section-top-desktop-2.svg');
   }
   .feature-item:nth-of-type(3)::after {
-    bottom: -5em;
+    height: 175px;
+
+    bottom: -12em;
     right: 0;
     background-image: url('./images/bg-section-bottom-desktop-2.svg');
   }
@@ -590,13 +597,15 @@ img {
   }
 
   .footer-area::before {
-    top: -5em;
+    height: 175px;
+
+    top: -12em;
     right: 0;
     background-image: url('./images/bg-footer-top-desktop.svg');
   }
 
   .footer-area {
-    margin-top: 15em;
+    margin-top: 22em;
     padding-left: 4em;
     padding-right: 4em;
   }
