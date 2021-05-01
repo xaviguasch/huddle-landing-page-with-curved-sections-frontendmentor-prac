@@ -540,11 +540,11 @@ img {
   }
 
   .feature-item:nth-of-type(1)::before {
-    top: -10em;
+    top: -5em;
     background-image: url('./images/bg-section-top-desktop-1.svg');
   }
   .feature-item:nth-of-type(1)::after {
-    bottom: -10em;
+    bottom: -5em;
     background-image: url('./images/bg-section-bottom-desktop-1.svg');
   }
 
@@ -558,12 +558,11 @@ img {
   }
 
   .feature-item:nth-of-type(3)::before {
-    top: -9em;
+    top: -5em;
     right: 0;
     background-image: url('./images/bg-section-top-desktop-2.svg');
   }
   .feature-item:nth-of-type(3)::after {
-    position: absolute;
     bottom: -5em;
     right: 0;
     background-image: url('./images/bg-section-bottom-desktop-2.svg');
@@ -591,14 +590,13 @@ img {
   }
 
   .footer-area::before {
-    position: absolute;
-    top: -11em;
+    top: -5em;
     right: 0;
     background-image: url('./images/bg-footer-top-desktop.svg');
   }
 
   .footer-area {
-    margin-top: 0em;
+    margin-top: 15em;
     padding-left: 4em;
     padding-right: 4em;
   }
